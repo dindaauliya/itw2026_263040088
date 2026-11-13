@@ -11,12 +11,11 @@ html {
 }
 
 body {
-    font-family: Inter, Arial, Helvetica, sans-serif;
-    background-color: white;
+   font-family: Inter, Arial, Helvetica, sans-serif;
+    background-color: #F4F6F4;
     margin: 0;
     color: #333;
-    line-height: 1.6;
-    opacity: 0.7;
+    line-height: 1.6; 
 }
 
 h1, h2, h3 {
@@ -96,7 +95,7 @@ main .profile-card .stats .stat-item {
     display: inline-block;
     width: 150px;
     padding: 20px;
-    background: color #f9f8f8;;
+    background-color: #f9f8f8;;
     margin: 10px 20px;
     border-radius: 8px;
     border: 2px solid #a7bbab;
@@ -132,15 +131,17 @@ main .discography .album-list .album-card {
     width: 210px;
     margin: 15px;
     padding: 15px;
-    background-color: white;
+    background-color: #244137;
+    color: white;
+    border: 1px solid #3b5947;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.1);
+    transition: 0.3s ease;
 }
 
 main .discography .album-list .album-card:hover, .card:active {
     transform: translateY(-6px) scale(1.07);
-    transition: transform 0.3s ease;
-    box-shadow: o.3s ease;
+    transition: 0.3s ease;
 }
 
 main .discography .album-list .album-card img {
@@ -156,6 +157,7 @@ main .discography .album-list .album-card img {
 main .discography .album-list .album-card h3 {
     font-size: 1em;
     margin-bottom: 15px;
+    color: #e1ebe2;
 }
 
 main .discography .album-list .album-card p {
@@ -196,6 +198,7 @@ main .song {
     margin-bottom: 10px;
     border-radius: 8px;
     text-decoration: none;
+    transition: 0.3s ease;
 }
 
 main .song:hover {
@@ -212,10 +215,8 @@ main .song .btn-song {
     text-decoration: none;
 }
 
-main .song:hover, .card:active {
+main .song:hover, .song:active {
     transform: translateY(-6px) scale(1.05);
-    transition: transform 0.3s ease;
-    box-shadow: o.3s ease;
 }
 
 main .social-links {
@@ -238,7 +239,13 @@ main .social-links .social-btn {
 }
 
 main .social-links .social-btn:hover {
-    background-color: #333;
+    background-color: #7aaa74;
+}
+
+main .social-links .social-btn:active {
+    transform: translateY(-6px) scale(1.07);
+    transition: 0.3s ease;
+   
 }
 
 
