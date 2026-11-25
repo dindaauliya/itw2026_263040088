@@ -86,6 +86,7 @@ main .profile-card .bio {
 }
 
 main .profile-card .bio p {
+    font-family: Inter, Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
 }
 
